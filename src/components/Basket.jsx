@@ -25,7 +25,6 @@ function Basket() {
       </button>
       {basketItem ? (
         <div className="basket__container">
-          <span className="basket__triangle"></span>
           <text className="basket__mycart"> My Cart (5 items) </text>
           <div className="item__divider"></div>
           {startIndex === 0 ? null : (
@@ -55,6 +54,7 @@ function Basket() {
           </div>
         </div>
       ) : null}
+      <span className="basket__triangle"></span>
     </div>
   );
 }
