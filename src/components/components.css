@@ -1,0 +1,113 @@
+/*   BASKET   */
+.basket__wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 361px;
+  height: 820px;
+  align-items: flex-end;
+}
+.basket__btn {
+  width: 86px;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.basket__container {
+  justify-self: flex-end;
+  align-self: flex-end;
+  width: 360px;
+  height: 557.77px;
+  position: inherit;
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  -webkit-box-shadow: 5px 5px 5px 5px #000000;
+  box-shadow: 1px 1px 10px 1px #000000;
+}
+.basket__triangle {
+  width: 0;
+  height: 0;
+  border-width: 0 10px 20px 10px;
+  border-color: transparent transparent #ffffff transparent;
+  border-style: solid;
+  filter: drop-shadow(0px -1px 1px #000000);
+  position: relative;
+  top: -7.1%;
+  right: -37%;
+}
+
+.basket__mycart {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  margin-right: 56%;
+}
+.basket__nav--btn {
+  width: 324px;
+  height: 30px;
+  background: #f9f9f9;
+  border: 1px solid #bcbcbc;
+  text-align: center;
+  color: #707070;
+}
+.basket__edit--btn {
+  height: 42px;
+  width: 135px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+  margin-right: 5px;
+  background: #ffffff;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.45);
+}
+
+.basket__checkout--btn {
+  height: 42px;
+  width: 177px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+  margin-left: 5px;
+  color: white;
+  background: #79ad36;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.1);
+  border-style: none;
+}
+.btn__wrapper {
+  margin-top: 20px;
+}
+/*  Basket Item   */
+.item__container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.item__text--wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.item__price {
+  margin-top: 10px;
+}
+
+.text__color {
+  color: #707070;
+}
+
+.item__divider {
+  border-style: solid;
+  border-width: 0;
+  border-bottom-width: 1px;
+  border-color: #bcbcbc;
+  width: 324px;
+
+  padding-bottom: 10px;
+}
